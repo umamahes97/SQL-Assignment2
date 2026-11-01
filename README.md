@@ -62,14 +62,38 @@ DML - Data Manipulation Language.
 4. GROUP BY: 
 ⦿  List the maximum salary for each location.
 
-<img width="734" height="313" alt="image" src="https://github.com/user-attachments/assets/1e87d611-d726-4c25-95a4-1d63c99a8222" />
+<img width="662" height="300" alt="image" src="https://github.com/user-attachments/assets/b7b2c5e0-1c30-44f7-9078-6ee1605278df" />
 
 ⦿  Calculate the average salary for each designation containing the word 'Analyst'. 
 
+<img width="734" height="313" alt="image" src="https://github.com/user-attachments/assets/10e9f2d2-ae0f-4774-b626-ec2dc8a6651b" />
 
 6. HAVING: 
-⦿  Find departments with less than 3 employees. 
+⦿  Find departments with less than 3 employees.
+
+<img width="634" height="264" alt="image" src="https://github.com/user-attachments/assets/91787e51-b40f-442d-8df1-647b0538625e" />
+
 ⦿  Find locations with female employees whose average age is below 30.
+
+<img width="663" height="289" alt="image" src="https://github.com/user-attachments/assets/a5d9b703-d9f3-47b4-a74f-a9f3da2b1d91" />
+
+### Joins: 
+1. Inner Join: 
+⦿  List employee names, their designations, and department names where employees are assigned to a department.
+
+<img width="638" height="339" alt="image" src="https://github.com/user-attachments/assets/142accce-4262-44b6-bc66-54ef2fd5df2f" />
+
+2. Left Join: 
+⦿  List all departments along with the total number of employees in each department, including departments with no employees.
+
+<img width="680" height="332" alt="image" src="https://github.com/user-attachments/assets/c5634df6-caf8-4506-a687-3b19a56c7e8b" />
+
+3. Right Join: 
+⦿  Display all locations along with the names of employees assigned to each location. If no employees are assigned to a location, display NULL for employee name.
+
+<img width="667" height="331" alt="image" src="https://github.com/user-attachments/assets/86b2e052-01fe-47c3-8b9e-bb3fcba9d922" />
+
+
 
 
 
